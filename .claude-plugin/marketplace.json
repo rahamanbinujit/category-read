@@ -1,0 +1,17 @@
+{
+  "name": "clayface",
+  "description": "Consumer intelligence skills for beauty, personal care and wellness brands, published by Clayface.",
+  "owner": {
+    "name": "Clayface",
+    "url": "https://clayface.ai"
+  },
+  "plugins": [
+    {
+      "name": "category-read",
+      "description": "A beauty, personal care and wellness category analyst. Reads where attention sits before the growth rate, checks whether the base is real, tests whether a space is actually open — and is explicit about what needs live measurement.",
+      "author": { "name": "Clayface" },
+      "category": "research",
+      "source": "./"
+    }
+  ]
+}

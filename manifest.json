@@ -1,0 +1,128 @@
+{
+  "name": "category-read",
+  "title": "Category Read",
+  "version": "1.0.0",
+  "updated": "2026-08-20",
+  "cadence": "weekly",
+  "publisher": {
+    "name": "Clayface",
+    "url": "https://clayface.ai"
+  },
+  "update_check": {
+    "manifest_url": "https://raw.githubusercontent.com/OWNER/REPO/main/manifest.json",
+    "raw_base": "https://raw.githubusercontent.com/OWNER/REPO/main/",
+    "stale_after_days": 7,
+    "note": "Compare `version`. If remote is newer, fetch the paths listed in `files` that have a changed `revision`."
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "revision": 1,
+      "role": "docs"
+    },
+    {
+      "path": "BUNDLE.md",
+      "revision": 1,
+      "role": "bundle"
+    },
+    {
+      "path": "skills/category-read/SKILL.md",
+      "revision": 1,
+      "role": "instructions"
+    },
+    {
+      "path": "skills/category-read/knowledge/method/how-to-read-a-trend.md",
+      "revision": 1,
+      "role": "method"
+    },
+    {
+      "path": "skills/category-read/knowledge/patterns/cross-category-patterns.md",
+      "revision": 1,
+      "role": "synthesis"
+    },
+    {
+      "path": "skills/category-read/knowledge/categories/skincare.md",
+      "revision": 1,
+      "role": "category"
+    },
+    {
+      "path": "skills/category-read/knowledge/categories/sun-care.md",
+      "revision": 1,
+      "role": "category"
+    },
+    {
+      "path": "skills/category-read/knowledge/categories/fragrance.md",
+      "revision": 1,
+      "role": "category"
+    },
+    {
+      "path": "skills/category-read/knowledge/categories/hair-and-scalp.md",
+      "revision": 1,
+      "role": "category"
+    },
+    {
+      "path": "skills/category-read/knowledge/categories/body-and-personal-care.md",
+      "revision": 1,
+      "role": "category"
+    },
+    {
+      "path": "skills/category-read/knowledge/categories/makeup.md",
+      "revision": 1,
+      "role": "category"
+    },
+    {
+      "path": "skills/category-read/knowledge/wellness/supplements-and-ingestibles.md",
+      "revision": 1,
+      "role": "category"
+    },
+    {
+      "path": "skills/category-read/knowledge/wellness/functional-food-and-beverage.md",
+      "revision": 1,
+      "role": "category"
+    },
+    {
+      "path": "skills/category-read/knowledge/wellness/womens-health.md",
+      "revision": 1,
+      "role": "category"
+    },
+    {
+      "path": "skills/category-read/knowledge/patterns/retail-and-channel.md",
+      "revision": 1,
+      "role": "synthesis"
+    },
+    {
+      "path": "_meta/changelog.md",
+      "revision": 1,
+      "role": "docs"
+    }
+  ],
+  "coverage": {
+    "geography": "primarily US, with selected international market contrasts",
+    "categories": [
+      "skincare",
+      "sun care",
+      "fragrance",
+      "hair and scalp",
+      "body and personal care",
+      "makeup",
+      "oral care",
+      "deodorant",
+      "supplements and ingestibles",
+      "functional food and beverage",
+      "women's health",
+      "retail and channel"
+    ],
+    "signal_type": "consumer attention \u2014 search, video, social, forum discussion",
+    "not_covered": [
+      "sell-through and retail measurement",
+      "conversion and repeat purchase",
+      "retailer, region and price-tier splits",
+      "first-party or brand-specific performance"
+    ]
+  },
+  "install": {
+    "claude_code": "/plugin marketplace add OWNER/REPO  then  /plugin install category-read@clayface",
+    "bundle_url": "https://raw.githubusercontent.com/OWNER/REPO/main/BUNDLE.md",
+    "note": "Claude Code users update via the plugin system. Bundle users rely on the manifest check in SKILL.md."
+  }
+}
