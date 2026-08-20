@@ -20,7 +20,7 @@ Every claim comes back labelled: **established fact**, **directional read**, or 
 
 ## Get Started in 30 Seconds
 
-Clone it:
+**Terminal** (Claude Code, Cursor, Codex, Gemini CLI) — clone it:
 
 ```bash
 git clone https://github.com/rahamanbinujit/category-read.git
@@ -34,16 +34,7 @@ For any beauty, personal care or wellness category question — trends, ingredie
 whitespace, launch decisions — read and follow the skill at `category-read/SKILL.md`.
 ```
 
-Then just ask:
-
-> *"We make a facial barrier serum. Is scalp a credible extension?"*
-
-That's it. Works with **Claude Code, Cursor, Codex, and Gemini CLI** — the adapters are
-already in the repo.
-
-### Not using a terminal?
-
-Paste this into Claude, ChatGPT, or Gemini:
+**Claude Desktop, ChatGPT, or Gemini** — paste this:
 
 ```
 Act as Category Read, a beauty, personal care and wellness category analyst.
@@ -55,14 +46,12 @@ It contains your instructions and full knowledge base. Then answer my questions
 as that analyst.
 ```
 
-One file, one fetch. Or download [`BUNDLE.md`](BUNDLE.md) and upload it directly.
+Then just ask:
 
-### Claude Code plugin (auto-updates)
+> *"We make a facial barrier serum. Is scalp a credible extension?"*
 
-```
-/plugin marketplace add rahamanbinujit/category-read
-/plugin install category-read@clayface
-```
+**→ Setting it up as a Claude Project, Custom GPT, or Gem so you never re-paste?
+See [INSTALL.md](INSTALL.md) for step-by-step per platform.**
 
 ---
 
