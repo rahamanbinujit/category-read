@@ -18,40 +18,32 @@ Every claim comes back labelled: **established fact**, **directional read**, or 
 
 ---
 
-## Get Started in 30 Seconds
+## Get Started
 
-**Terminal** (Claude Code, Cursor, Codex, Gemini CLI) — clone it:
+**Paste this into Claude Code, Codex, Cursor, or Gemini CLI:**
 
-```bash
-git clone https://github.com/rahamanbinujit/category-read.git
+```
+Set up Category Read: clone https://github.com/rahamanbinujit/category-read.git
+then read category-read/SETUP.md and follow every step in it.
 ```
 
-Copy this into your `CLAUDE.md`:
+That's it. It clones the repo, registers itself in your `CLAUDE.md` / `AGENTS.md` /
+`GEMINI.md`, and sets up weekly auto-updates. You don't edit anything.
 
-```markdown
-## Category Intelligence
-For any beauty, personal care or wellness category question — trends, ingredients,
-whitespace, launch decisions — read and follow the skill at `category-read/SKILL.md`.
-```
-
-**Claude Desktop, ChatGPT, or Gemini** — paste this:
+**Not in a terminal?** Paste this into Claude, ChatGPT, or Gemini instead:
 
 ```
 Act as Category Read, a beauty, personal care and wellness category analyst.
-
-Fetch and follow this file exactly:
-https://raw.githubusercontent.com/rahamanbinujit/category-read/main/BUNDLE.md
-
-It contains your instructions and full knowledge base. Then answer my questions
-as that analyst.
+Fetch https://raw.githubusercontent.com/rahamanbinujit/category-read/main/BUNDLE.md
+and follow it exactly. Then answer my questions as that analyst.
 ```
 
-Then just ask:
+**Then just ask:**
 
 > *"We make a facial barrier serum. Is scalp a credible extension?"*
 
-**→ Setting it up as a Claude Project, Custom GPT, or Gem so you never re-paste?
-See [INSTALL.md](INSTALL.md) for step-by-step per platform.**
+<sub>Prefer a permanent setup — Claude Project, Custom GPT, or Gem — so you never
+re-paste? See [INSTALL.md](INSTALL.md).</sub>
 
 ---
 

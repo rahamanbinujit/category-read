@@ -1,63 +1,41 @@
 # Install Category Read
 
-Pick your assistant. Every route ends up in the same place — an analyst that reads your
-category properly and tells you what needs measuring.
+## The one-prompt install (terminal agents)
 
-| Your assistant | Best route | Auto-updates? |
-|---|---|---|
-| [Claude Code](#claude-code) | Clone, or install as a plugin | **Yes** |
-| [Cursor / Codex / Gemini CLI](#cursor-codex-gemini-cli) | Clone | **Yes** — `git pull` |
-| [Claude Desktop or claude.ai](#claude-desktop-or-claudeai) | Project + uploaded file, or paste the prompt | Prompt route: yes · Project: manual |
-| [ChatGPT](#chatgpt) | Custom GPT, or paste the prompt | Prompt route: yes · GPT: manual |
-| [Gemini](#gemini) | Gem, or paste the prompt | Prompt route: yes · Gem: manual |
+Paste this into **Claude Code, Codex, Cursor, or Gemini CLI**:
+
+```
+Set up Category Read: clone https://github.com/rahamanbinujit/category-read.git
+then read category-read/SETUP.md and follow every step in it.
+```
+
+The agent does everything: clones the repo, works out whether your project uses
+`CLAUDE.md`, `AGENTS.md`, `GEMINI.md` or Cursor rules, registers the skill there,
+adds the clone to `.gitignore`, verifies the install, and tells you it's ready.
+You edit nothing.
+
+Already installed? The same prompt updates it.
 
 ---
 
-## Claude Code
+## The one-prompt install (chat assistants)
 
-**Option A — plugin (simplest, updates itself):**
+Paste this into **Claude, ChatGPT, or Gemini**:
 
 ```
-/plugin marketplace add rahamanbinujit/category-read
-/plugin install category-read@clayface
+Act as Category Read, a beauty, personal care and wellness category analyst.
+Fetch https://raw.githubusercontent.com/rahamanbinujit/category-read/main/BUNDLE.md
+and follow it exactly. Then answer my questions as that analyst.
 ```
 
-Update later with `/plugin update category-read`.
-
-**Option B — clone (best if you want to read or fork the knowledge):**
-
-```bash
-git clone https://github.com/rahamanbinujit/category-read.git
-```
-
-Then add this to your project's `CLAUDE.md`:
-
-```markdown
-## Category Intelligence
-For any beauty, personal care or wellness category question — trends, ingredients,
-whitespace, launch decisions — read and follow the skill at `category-read/SKILL.md`.
-```
-
-The skill will run `git pull` itself when its copy is more than a week old.
+One fetch, one file, whole skill. Needs web access enabled.
 
 ---
 
-## Cursor, Codex, Gemini CLI
+## Permanent setup (so you never re-paste)
 
-```bash
-git clone https://github.com/rahamanbinujit/category-read.git
-```
-
-The adapters are already in the repo, so each tool picks it up on its own:
-
-- **Cursor** → `.cursor/skills/category-read.mdc`
-- **Codex** → `.codex/AGENTS.md`
-- **Gemini CLI** → `.gemini/SKILL.md`
-
-All three point at the root `SKILL.md`. Run `git pull` to update, or just ask the
-assistant to update itself.
-
----
+Worth ten minutes if you'll use this regularly — and you can share it with your whole
+team.
 
 ## Claude Desktop or claude.ai
 

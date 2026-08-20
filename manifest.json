@@ -139,6 +139,16 @@
       "path": ".claude-plugin/marketplace.json",
       "revision": 1,
       "role": "plugin"
+    },
+    {
+      "path": "SETUP.md",
+      "revision": 1,
+      "role": "install"
+    },
+    {
+      "path": "INSTALL.md",
+      "revision": 1,
+      "role": "install"
     }
   ],
   "coverage": {
@@ -178,6 +188,7 @@
       "Claude Desktop",
       "ChatGPT",
       "Gemini"
-    ]
+    ],
+    "one_prompt": "Set up Category Read: clone https://github.com/rahamanbinujit/category-read.git then read category-read/SETUP.md and follow every step in it."
   }
 }
