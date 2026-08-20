@@ -1,168 +1,242 @@
+<div align="center">
+
 # Category Read
 
-**A beauty, personal care and wellness analyst for your AI assistant.**
+### A beauty category analyst. In whatever AI you already use.
 
-Ask it what's happening in a category and you get an analyst's read — the mechanism
-behind a movement, whether the space is actually open, and what it would take to act.
-Every claim comes back labelled: **established fact**, **directional read**, or
-**needs live measurement**.
+**Trends, ingredients, whitespace, launch calls — answered like an analyst, not a listicle.**
 
-Free. Updated weekly. Built by [Clayface](https://clayface.ai).
+Every claim comes back labelled: **established fact**, **directional read**, or **needs live measurement**.
 
----
+![License](https://img.shields.io/badge/License-CC%20BY%204.0-blue)
+![Updated](https://img.shields.io/badge/Updated-weekly-brightgreen)
+![Built by](https://img.shields.io/badge/Built%20by-Clayface-C83C32)
 
-## Why this exists
+*Built from the 2026 beauty and wellness research landscape — 27 industry reports, 961 pages, distilled into a method you can apply to any category.*
 
-You have probably already asked a general-purpose assistant about your category. You
-got a confident, tidy list — and then had to go check all of it, which cost more time
-than it saved.
-
-This is the other thing. It reasons before it answers: it reads *where* the attention
-sits before it reads the growth rate, checks whether a percentage is real or a rounding
-artefact off a tiny base, and tests whether a space is genuinely open or just growing.
-And when a question runs past what category knowledge can answer, it says so and names
-what would answer it.
+</div>
 
 ---
 
-## Install
+## Get Started in 30 Seconds
 
-### Claude Code
+Clone it:
 
+```bash
+git clone https://github.com/rahamanbinujit/category-read.git
 ```
-/plugin marketplace add OWNER/REPO
-/plugin install category-read@clayface
+
+Copy this into your `CLAUDE.md`:
+
+```markdown
+## Category Intelligence
+For any beauty, personal care or wellness category question — trends, ingredients,
+whitespace, launch decisions — read and follow the skill at `category-read/SKILL.md`.
 ```
 
-Then just ask a category question. Updates come through Claude Code's own plugin
-system — `/plugin update category-read`.
+Then just ask:
 
-### Claude Desktop, ChatGPT, Gemini, or anything that browses
+> *"We make a facial barrier serum. Is scalp a credible extension?"*
 
-Paste this:
+That's it. Works with **Claude Code, Cursor, Codex, and Gemini CLI** — the adapters are
+already in the repo.
+
+### Not using a terminal?
+
+Paste this into Claude, ChatGPT, or Gemini:
 
 ```
 Act as Category Read, a beauty, personal care and wellness category analyst.
 
-Fetch and load this file, then follow it exactly:
-https://raw.githubusercontent.com/OWNER/REPO/main/BUNDLE.md
+Fetch and follow this file exactly:
+https://raw.githubusercontent.com/rahamanbinujit/category-read/main/BUNDLE.md
 
-It contains your behaviour instructions and your full knowledge base. Pay
-particular attention to the rules on separating established knowledge from what
-needs live measurement, and on never inventing a precise figure.
-
-Then answer my questions as that analyst.
+It contains your instructions and full knowledge base. Then answer my questions
+as that analyst.
 ```
 
-`BUNDLE.md` is the whole skill in one file, so this is a single fetch rather than a
-crawl across a repo — much more reliable.
+One file, one fetch. Or download [`BUNDLE.md`](BUNDLE.md) and upload it directly.
 
-### No browsing available?
+### Claude Code plugin (auto-updates)
 
-Download [`BUNDLE.md`](BUNDLE.md), upload it as a file, and say *"act as the analyst
-described in this file."*
-
-> Uploaded copies don't self-update. Re-download when a new version ships.
+```
+/plugin marketplace add rahamanbinujit/category-read
+/plugin install category-read@clayface
+```
 
 ---
 
-## Staying current
+## Why This Exists
 
-| How you installed | How updates reach you |
+You have already asked an AI about your category. You got a confident, tidy list — and
+then had to go check all of it, which cost more time than it saved.
+
+This is the other thing.
+
+It **reasons before it answers.** It reads *where* the attention sits before it reads the
+growth rate. It checks whether a percentage is real or a rounding artefact off a base of
+eight people. It tests whether a space is genuinely open or merely growing. And when a
+question runs past what category knowledge can answer, **it says so and names what would
+answer it.**
+
+---
+
+## What It Actually Does
+
+Four things it does that a trend summary can't:
+
+### It reverses a wrong assumption
+
+> *"Why is our category flat when everyone says beauty is growing?"*
+
+Hair is the largest beauty category and reads as declining. Decomposed: care, styling and
+colouring are all growing double digits — and the *concerns* sub-segment, the biggest one,
+is the only negative, dragging the headline red. **Anyone treating hair as declining is
+misallocating against a growing business.**
+
+### It reframes a misdiagnosed problem
+
+> *"Our sunscreen tests fine on SPF but reviews complain about texture."*
+
+Probably nothing you did. The UV filters available in the US are either strongly
+white-casting or oily — cosmetic elegance is capped by *chemistry*, and better filters
+approved in the EU and Japan are still pending with the FDA. **The regulatory gap is the
+product gap.**
+
+### It kills a bad idea cheaply
+
+> *"This trend is up 2,000%. Should we move?"*
+
+Often no. A lot of four-figure growth is a few hundred attention units off a base of
+eight. It checks scale before percentage, every time, and tells you which one you're
+looking at.
+
+### It finds free money
+
+> *"Is scalp a credible extension for our facial barrier serum?"*
+
+Yes, and it's cheap. Consumers have started treating the scalp as **skin** — reading scalp
+problems as inflammation and barrier issues, not hygiene. The language has near-zero brand
+attachment, paid saturation is under 1%, and consumers anchor on shampoo and treatment
+formats rather than devices. **So it's a renaming and re-merchandising play on products you
+already make.**
+
+---
+
+## Questions It Handles Well
+
+| If you're in… | Ask it |
 |---|---|
-| Claude Code plugin | Claude Code's plugin system — `/plugin update` |
-| Paste-the-prompt | The skill checks `manifest.json` on the first question of a conversation and offers to pull a newer version if yours is over a week old |
-| Uploaded file | Manual — re-download `BUNDLE.md` |
-
-`_meta/changelog.md` records what changed in each release. If you'd rather it didn't
-check, tell it to skip the version check.
-
----
-
-## What's inside
-
-```
-skills/category-read/
-  SKILL.md                                how the analyst behaves
-  knowledge/
-    method/how-to-read-a-trend.md         the six analytical tools
-    patterns/cross-category-patterns.md   what holds true across categories
-    patterns/retail-and-channel.md        demand creation vs expression
-    categories/                           skincare, sun care, fragrance,
-                                          hair & scalp, body/oral/deodorant, makeup
-    wellness/                             supplements, functional food & bev,
-                                          women's health
-BUNDLE.md                                 everything above, in one file
-manifest.json                             version + file list
-_meta/changelog.md                        release history
-```
-
-**The method file is the important one.** Category facts age; a way of reading a
-category doesn't. If you read one file, read that.
+| **Insights / analytics** | *"A stakeholder asked why our category is flat — what do I tell them?"* · *"Is this trend real or a paid-media artefact?"* · *"What would have to be true for this call to be wrong?"* |
+| **Innovation / R&D** | *"Is this adjacent category a credible extension for us?"* · *"What's the unmet formulation need here?"* · *"Is this supplier-owned active worth building on?"* |
+| **Brand / marketing** | *"Which platform should this launch live on, and why?"* · *"How do we talk about this ingredient given the skepticism?"* |
+| **Category / commercial** | *"We had strong demand data and the buyer said no. Why?"* · *"Is our specialty-retail growth discovery or validation?"* |
+| **Scoping research** | **"What can't you tell me about this?"** → comes back as a research brief |
 
 ---
 
-## What it's good at
-
-- *"What's actually driving interest in [ingredient], and is the space still open?"*
-- *"Why is our category flat when everyone says it's growing?"*
-- *"Is this trend early, or am I about to buy the top?"*
-- *"We make [product]. Is [adjacent category] a credible extension?"*
-- *"Which platform should this launch live on, and why?"*
-- *"How do we talk about [ingredient] given the skepticism around it?"*
-- *"We had strong demand data and the buyer said no. Why?"*
-- **"What can't you tell me about this?"** → comes back as a research brief
-
-## What it will decline
+## What It Will Decline
 
 - Current precise growth figures or market share
 - Whether interest converts to purchase or repeat
 - Sell-through, retailer splits, price-tier performance
-- Anything about your own consumers specifically
+- Anything about *your* consumers specifically
 
-That boundary is deliberate. Those are measurement questions, and a knowledge base
+**That boundary is deliberate.** Those are measurement questions, and a knowledge base
 that pretends otherwise is how confident, wrong decisions get made.
 
 ---
 
-## Getting good answers out of it
+## Coverage
 
-**Give it the decision, not the topic.** "What's happening in scalp care" gets a
-summary. "We make a facial barrier serum and we're deciding whether to extend into
-scalp — what would make that work or fail" gets an argument you can use.
+**Beauty & personal care** — skincare · sun care · fragrance · hair & scalp · body & bath ·
+oral care · deodorant · makeup
 
-**Ask it to show its reasoning.** "Walk me through how you'd test whether this space is
-open" is usually more useful than the conclusion.
+**Wellness** — supplements & ingestibles · functional food & beverage · women's health
 
-**Push back.** Ask what would have to be true for a claim to be wrong. It's built to
-tell you where its confidence ends.
+**Cross-cutting** — twelve patterns that hold across categories · retail & channel ·
+and the analytical method itself
+
+Geography is primarily US, with selected international market contrasts.
 
 ---
 
-## Honest limits
+## What's Inside
 
-Category Read reads **attention** — what people search, watch and discuss. That's a
-genuine leading indicator, because people research before they buy. But it stops at
-intent.
+```
+SKILL.md                                how the analyst behaves
+CLAUDE.md                               drop-in instructions for your project
+knowledge/
+  method/how-to-read-a-trend.md         ← the six analytical tools. read this one.
+  patterns/cross-category-patterns.md   what holds true across categories
+  patterns/retail-and-channel.md        demand creation vs demand expression
+  categories/                           six beauty & personal care categories
+  wellness/                             supplements, functional F&B, women's health
+BUNDLE.md                               everything above, in one file
+manifest.json                           version + update configuration
+```
 
-It can't see conversion, repeat purchase or sell-through, and it can't break any of it
-down by retailer, region or price tier. It doesn't know whether your consumers look
-like the general market, or whether what people say matches what they do.
+**The method file is the important one.** Category facts age. A way of reading a category
+doesn't. If you read one file, read that.
 
-Reconciling attention against first-party data — your reviews, your sell-through, your
-own research — is a different job. That's the job [Clayface](https://clayface.ai) does,
-and it's why we built this: the questions this skill has to decline are a fair map of
-the ones worth paying to answer.
+---
+
+## Staying Current
+
+| Install method | How updates reach you |
+|---|---|
+| Claude Code plugin | Claude Code's plugin system — `/plugin update` |
+| Cloned repo | `git pull` |
+| Paste-the-prompt | Checks `manifest.json` on your first question, offers to pull if your copy is over a week old |
+| Uploaded file | Manual — re-download `BUNDLE.md` |
+
+See [`_meta/changelog.md`](_meta/changelog.md) for what changed in each release.
+
+---
+
+## Getting Good Answers
+
+**Give it the decision, not the topic.** *"What's happening in scalp care"* gets a summary.
+*"We make a facial barrier serum and we're deciding whether to extend into scalp — what
+would make that work or fail"* gets an argument you can use.
+
+**Ask it to show its reasoning.** *"Walk me through how you'd test whether this space is
+open"* is usually more useful than the conclusion.
+
+**Push back.** Ask what would have to be true for a claim to be wrong. It's built to tell
+you where its confidence ends.
+
+---
+
+## Honest Limits
+
+Category Read reads **attention** — what people search, watch and discuss. That's a real
+leading indicator, because people research before they buy. But it stops at intent.
+
+It can't see conversion, repeat purchase or sell-through. It can't break anything down by
+retailer, region or price tier. It doesn't know whether your consumers look like the
+general market, or whether what people say matches what they do.
+
+Reconciling attention against first-party data — your reviews, your sell-through, your own
+research — is a different job. That's the job **[Clayface](https://clayface.ai)** does, and
+it's why we built this: the questions this skill has to decline are a fair map of the ones
+worth paying to answer.
 
 ---
 
 ## Contributing
 
-Something wrong, or a call badly made? Open an issue. Corrections with a source
-attached are the most useful thing you can send.
+Found something wrong, or a call badly made? [Open an issue](../../issues). Corrections
+with a source attached are the most useful thing you can send. See
+[CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-Knowledge content: [CC BY 4.0](LICENSE). Use it, adapt it, credit it.
-
+Knowledge content under [CC BY 4.0](LICENSE) — use it, adapt it, credit it.
 Third-party facts are attributed inline and belong to their original sources.
+
+<div align="center">
+
+**Built by [Clayface](https://clayface.ai)** — consumer intelligence for beauty brands.
+
+</div>

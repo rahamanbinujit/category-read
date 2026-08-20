@@ -3,14 +3,14 @@
 # fetch a whole repo. Run this after any knowledge change, before tagging a release.
 set -euo pipefail
 cd "$(dirname "$0")/.."
-S="skills/category-read"
+S="."
 VER=$(python3 -c "import json;print(json.load(open('manifest.json'))['version'])")
 UPD=$(python3 -c "import json;print(json.load(open('manifest.json'))['updated'])")
 OUT="BUNDLE.md"
 
 {
   echo "<!-- Category Read v$VER — generated bundle. Do not edit by hand."
-  echo "     Edit the source files under $S/ and run scripts/build-bundle.sh -->"
+  echo "     Edit the source files in knowledge/ and run scripts/build-bundle.sh -->"
   echo
   echo "# Category Read — Complete Bundle"
   echo
@@ -22,20 +22,20 @@ OUT="BUNDLE.md"
   echo
   echo "---"
   echo
-  cat "$S/SKILL.md"
+  cat "SKILL.md"
   for f in \
-    "$S/knowledge/method/how-to-read-a-trend.md" \
-    "$S/knowledge/patterns/cross-category-patterns.md" \
-    "$S/knowledge/patterns/retail-and-channel.md" \
-    "$S/knowledge/categories/skincare.md" \
-    "$S/knowledge/categories/sun-care.md" \
-    "$S/knowledge/categories/fragrance.md" \
-    "$S/knowledge/categories/hair-and-scalp.md" \
-    "$S/knowledge/categories/body-and-personal-care.md" \
-    "$S/knowledge/categories/makeup.md" \
-    "$S/knowledge/wellness/supplements-and-ingestibles.md" \
-    "$S/knowledge/wellness/functional-food-and-beverage.md" \
-    "$S/knowledge/wellness/womens-health.md"
+    "knowledge/method/how-to-read-a-trend.md" \
+    "knowledge/patterns/cross-category-patterns.md" \
+    "knowledge/patterns/retail-and-channel.md" \
+    "knowledge/categories/skincare.md" \
+    "knowledge/categories/sun-care.md" \
+    "knowledge/categories/fragrance.md" \
+    "knowledge/categories/hair-and-scalp.md" \
+    "knowledge/categories/body-and-personal-care.md" \
+    "knowledge/categories/makeup.md" \
+    "knowledge/wellness/supplements-and-ingestibles.md" \
+    "knowledge/wellness/functional-food-and-beverage.md" \
+    "knowledge/wellness/womens-health.md"
   do
     echo; echo; echo "---"; echo
     echo "<!-- source: $f -->"

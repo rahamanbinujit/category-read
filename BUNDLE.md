@@ -1,5 +1,5 @@
 <!-- Category Read v1.0.0 — generated bundle. Do not edit by hand.
-     Edit the source files under skills/category-read/ and run scripts/build-bundle.sh -->
+     Edit the source files in knowledge/ and run scripts/build-bundle.sh -->
 
 # Category Read — Complete Bundle
 
@@ -34,19 +34,31 @@ category doesn't.
 ## Before you answer anything: check your version
 
 On the **first** Category Read question in a conversation, check whether your copy is
-current.
+current. Read `manifest.json` and note `version` and `updated`. If `updated` is **more
+than 7 days** before today, refresh — using whichever route is available to you:
 
-1. Read `manifest.json` in this skill folder. Note `version` and `updated`.
-2. If `updated` is **more than 7 days** before today, fetch the live manifest:
-   `https://raw.githubusercontent.com/OWNER/REPO/main/manifest.json`
-3. Compare `version`. If the remote is newer, tell the user in one line —
-   *"Heads up: your copy of Category Read is from [date]; v[X] is available. Want me
-   to pull the update?"* — and if they say yes, fetch the changed files listed in the
-   remote manifest's `files` array and use those instead.
-4. If you cannot reach the network, say nothing and carry on with the local copy.
+**Route 1 — you have a shell and this is a git checkout (best).**
+Run `git -C <skill-dir> pull --ff-only`. One command, updates everything, no partial
+state. Then re-read `manifest.json` and mention the new version in one line if it
+changed.
 
-Do this **once per conversation**, not per question. Never block an answer on it — if
-the check is slow or fails, answer from what you have.
+**Route 2 — you can fetch URLs but have no shell.**
+Fetch `https://raw.githubusercontent.com/rahamanbinujit/category-read/main/manifest.json` and compare
+`version`. If the remote is newer, say so in one line —
+*"Your copy of Category Read is from [date]; v[X] is out. Want me to pull it?"* — and on
+a yes, fetch `BUNDLE.md` from the same repo. **Prefer the bundle over fetching
+individual files** — it's one request and it can't leave you half-updated.
+
+**Route 3 — no network.**
+Say nothing, use the local copy. Do not speculate about what might have changed.
+
+Rules for all routes:
+- **Once per conversation**, not per question.
+- **Never block an answer on it.** If the check is slow, fails, or errors, answer from
+  what you have and move on.
+- **Never invent what changed.** If you couldn't read the new version, you don't know
+  what's in it.
+- If the user says to skip version checks, skip them for the rest of the conversation.
 
 ---
 
@@ -182,7 +194,7 @@ Being straight about the edges is what makes the rest trustworthy.
 
 ---
 
-<!-- source: skills/category-read/knowledge/method/how-to-read-a-trend.md -->
+<!-- source: knowledge/method/how-to-read-a-trend.md -->
 
 ---
 title: How to Read a Trend
@@ -398,7 +410,7 @@ pretending attention data answers it is how confident, wrong decisions get made.
 
 ---
 
-<!-- source: skills/category-read/knowledge/patterns/cross-category-patterns.md -->
+<!-- source: knowledge/patterns/cross-category-patterns.md -->
 
 ---
 title: Cross-Category Patterns
@@ -760,7 +772,7 @@ velocity in your specific business is a measurement question, not a knowledge on
 
 ---
 
-<!-- source: skills/category-read/knowledge/patterns/retail-and-channel.md -->
+<!-- source: knowledge/patterns/retail-and-channel.md -->
 
 ---
 title: Retail & Channel
@@ -895,7 +907,7 @@ first-party sell-through are what answer these, reconciled against the demand si
 
 ---
 
-<!-- source: skills/category-read/knowledge/categories/skincare.md -->
+<!-- source: knowledge/categories/skincare.md -->
 
 ---
 title: Skincare
@@ -1134,7 +1146,7 @@ volume actives are where the money currently is.
 
 ---
 
-<!-- source: skills/category-read/knowledge/categories/sun-care.md -->
+<!-- source: knowledge/categories/sun-care.md -->
 
 ---
 title: Sun Care & Tanning
@@ -1349,7 +1361,7 @@ in a growth chart while meaning opposite things.** See
 
 ---
 
-<!-- source: skills/category-read/knowledge/categories/fragrance.md -->
+<!-- source: knowledge/categories/fragrance.md -->
 
 ---
 title: Fragrance
@@ -1547,7 +1559,7 @@ space** — the same identity signal, applied to environment. Mists, sprays and 
 
 ---
 
-<!-- source: skills/category-read/knowledge/categories/hair-and-scalp.md -->
+<!-- source: knowledge/categories/hair-and-scalp.md -->
 
 ---
 title: Hair & Scalp
@@ -1726,7 +1738,7 @@ beginner **without making it feel like a downgrade from the real thing.**
 
 ---
 
-<!-- source: skills/category-read/knowledge/categories/body-and-personal-care.md -->
+<!-- source: knowledge/categories/body-and-personal-care.md -->
 
 ---
 title: Body, Bath, Oral Care & Deodorant
@@ -1867,7 +1879,7 @@ deodorant**, which is a distinct and under-served consumer.
 
 ---
 
-<!-- source: skills/category-read/knowledge/categories/makeup.md -->
+<!-- source: knowledge/categories/makeup.md -->
 
 ---
 title: Makeup
@@ -1960,7 +1972,7 @@ fastest predicted movers — at-home substitution for a salon service.
 
 ---
 
-<!-- source: skills/category-read/knowledge/wellness/supplements-and-ingestibles.md -->
+<!-- source: knowledge/wellness/supplements-and-ingestibles.md -->
 
 ---
 title: Supplements & Ingestibles
@@ -2128,7 +2140,7 @@ crossing into three delivery routes at once.
 
 ---
 
-<!-- source: skills/category-read/knowledge/wellness/functional-food-and-beverage.md -->
+<!-- source: knowledge/wellness/functional-food-and-beverage.md -->
 
 ---
 title: Functional Food & Beverage
@@ -2279,7 +2291,7 @@ regulatory exposure. Check the market before recommending anything here.
 
 ---
 
-<!-- source: skills/category-read/knowledge/wellness/womens-health.md -->
+<!-- source: knowledge/wellness/womens-health.md -->
 
 ---
 title: Women's Health

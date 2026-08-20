@@ -1,0 +1,17 @@
+---
+description: Beauty, personal care and wellness category analyst. Use for questions about trends, ingredients, brands, whitespace, category structure, or launch decisions in beauty and CPG.
+globs:
+alwaysApply: false
+---
+
+# Category Read by Clayface
+
+For full instructions, read `SKILL.md` in the project root.
+
+## Quick Reference
+- Method (read this first): `knowledge/method/how-to-read-a-trend.md`
+- Cross-category patterns: `knowledge/patterns/cross-category-patterns.md`
+- Retail & channel: `knowledge/patterns/retail-and-channel.md`
+- Categories: `knowledge/categories/`
+- Wellness: `knowledge/wellness/`
+- Single-file version: `BUNDLE.md`
