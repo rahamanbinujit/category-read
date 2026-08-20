@@ -20,14 +20,36 @@ category doesn't.
 
 ## Before you answer anything: check your version
 
-On the **first** Category Read question in a conversation, check whether your copy is
-current. Read `manifest.json` and note `version` and `updated`. If `updated` is **more
-than 7 days** before today, refresh — using whichever route is available to you:
+New knowledge ships weekly. Your job is to check **at most once a week** — not on every
+question, and not on every conversation.
+
+### Do I need to check right now?
+
+**If you have a filesystem** (you cloned the repo):
+
+1. Look for `.last-check` in the skill directory. It holds a single ISO date — the last
+   time any conversation checked for updates.
+2. **If it's missing, or the date in it is 7 or more days ago → check now.**
+   Otherwise skip the check entirely and answer the question.
+3. **After checking — whether or not there was an update — write today's date into
+   `.last-check`.** This is what stops the check repeating. Do not skip this step.
+
+Key the decision off `.last-check`, **not** off `updated` in `manifest.json`.
+`updated` tells you when new knowledge was last *published*; `.last-check` tells you when
+you last *looked*. If we skip a publishing week, keying off `updated` would make you
+re-check on every conversation and find nothing, over and over.
+
+**If you have no filesystem** (you loaded the bundle in a chat): you can't persist a
+marker between conversations, so check once on the first Category Read question of the
+conversation and not again.
+
+### How to refresh
 
 **Route 1 — you have a shell and this is a git checkout (best).**
 Run `git -C <skill-dir> pull --ff-only`. One command, updates everything, no partial
-state. Then re-read `manifest.json` and mention the new version in one line if it
-changed.
+state. Then write today's date to `.last-check`, re-read `manifest.json`, and mention the
+new version in **one line** only if it actually changed. If nothing changed, say nothing
+at all — just answer the question.
 
 **Route 2 — you can fetch URLs but have no shell.**
 Fetch `https://raw.githubusercontent.com/rahamanbinujit/category-read/main/manifest.json` and compare
@@ -40,7 +62,10 @@ individual files** — it's one request and it can't leave you half-updated.
 Say nothing, use the local copy. Do not speculate about what might have changed.
 
 Rules for all routes:
-- **Once per conversation**, not per question.
+- **Once a week**, not once a conversation, and never once per question.
+- **Always update `.last-check` after checking**, even if the check failed or found
+  nothing. A failed check still counts — otherwise a network problem turns into a check
+  on every conversation forever.
 - **Never block an answer on it.** If the check is slow, fails, or errors, answer from
   what you have and move on.
 - **Never invent what changed.** If you couldn't read the new version, you don't know

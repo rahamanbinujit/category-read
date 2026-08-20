@@ -9,10 +9,12 @@
     "url": "https://clayface.ai"
   },
   "update_check": {
+    "cadence_days": 7,
+    "marker_file": ".last-check",
+    "logic": "Check only if .last-check is missing or 7+ days old. Always rewrite .last-check after checking, pass or fail. Do not key off manifest.updated \u2014 that is the publish date, not the last-checked date.",
     "manifest_url": "https://raw.githubusercontent.com/rahamanbinujit/category-read/main/manifest.json",
-    "raw_base": "https://raw.githubusercontent.com/rahamanbinujit/category-read/main/",
-    "stale_after_days": 7,
-    "note": "Compare `version`. If remote is newer, fetch the paths listed in `files` that have a changed `revision`."
+    "bundle_url": "https://raw.githubusercontent.com/rahamanbinujit/category-read/main/BUNDLE.md",
+    "git_pull": "git -C category-read pull --ff-only"
   },
   "files": [
     {

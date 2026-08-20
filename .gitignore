@@ -4,3 +4,6 @@
 .Trashes
 node_modules/
 *.log
+
+# local update-check marker, written by the skill
+.last-check

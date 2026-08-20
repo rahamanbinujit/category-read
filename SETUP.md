@@ -75,8 +75,10 @@ Non-negotiable rules from that skill:
 - Check the base before believing a percentage
 - Cite public authorities by name; never present a cited third-party fact as our own measurement
 
-If `category-read/manifest.json` shows `updated` is more than 7 days old, run
-`git -C category-read pull --ff-only` before answering.
+Check for updates at most once a week: if `category-read/.last-check` is missing or its
+date is 7+ days ago, run `git -C category-read pull --ff-only`, then write today's date
+into `category-read/.last-check`. Do not check more often than that, and do not key the
+decision off `manifest.json`'s `updated` field.
 ```
 
 For Cursor's `.mdc` format, wrap it with:
