@@ -1,7 +1,7 @@
 {
   "name": "category-read",
   "title": "Category Read",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "updated": "2026-08-21",
   "cadence": "weekly",
   "publisher": {
@@ -19,17 +19,17 @@
   "files": [
     {
       "path": "README.md",
-      "revision": 2,
+      "revision": 3,
       "role": "docs"
     },
     {
       "path": "BUNDLE.md",
-      "revision": 5,
+      "revision": 6,
       "role": "bundle"
     },
     {
       "path": "SKILL.md",
-      "revision": 5,
+      "revision": 6,
       "role": "instructions"
     },
     {
@@ -84,7 +84,7 @@
     },
     {
       "path": "CLAUDE.md",
-      "revision": 1,
+      "revision": 2,
       "role": "instructions"
     },
     {
@@ -99,7 +99,7 @@
     },
     {
       "path": "skills/category-read/SKILL.md",
-      "revision": 1,
+      "revision": 2,
       "role": "plugin-pointer"
     },
     {
@@ -109,12 +109,12 @@
     },
     {
       "path": ".gemini/SKILL.md",
-      "revision": 1,
+      "revision": 2,
       "role": "adapter"
     },
     {
       "path": ".cursor/skills/category-read.mdc",
-      "revision": 1,
+      "revision": 2,
       "role": "adapter"
     },
     {
@@ -129,12 +129,12 @@
     },
     {
       "path": "SETUP.md",
-      "revision": 4,
+      "revision": 5,
       "role": "install"
     },
     {
       "path": "INSTALL.md",
-      "revision": 2,
+      "revision": 3,
       "role": "install"
     },
     {

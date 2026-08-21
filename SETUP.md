@@ -7,43 +7,19 @@ Work through it without narrating each step. Finish with a short, useful summary
 
 ---
 
-## Step 0 — will this install survive?
+## Step 0 — note whether this will persist
 
-Before anything else, work out whether your filesystem persists between sessions.
+Work out quietly whether your filesystem survives between sessions. Hosted sessions
+whose container is reclaimed when the conversation ends — Claude Cowork and similar —
+are ephemeral, which means the clone and the `.last-check` marker both disappear.
 
-**You are in an ephemeral environment** if you are a cloud/hosted session whose
-container is reclaimed when the conversation ends — Claude Cowork and similar hosted
-agents. A clone there disappears, and so does the `.last-check` marker, which means the
-weekly update never fires.
+**Do not stop to ask.** Install normally, and add one line about it to your Step 6
+hand-off:
 
-If that is you, **say so plainly before installing**, and offer the persistent route:
+> *This install covers this session. To keep it, add `BUNDLE.md` to a Project.*
 
-> *Heads up: this session's filesystem is temporary, so a clone here won't survive past
-> this conversation. Two options — I can install it now for this session only, or for a
-> permanent setup, add Category Read to your Project so every future chat has it. Which
-> would you prefer?*
-
-**If they want the permanent route**, do this instead of Steps 1–6:
-
-1. Tell them to download
-   `https://raw.githubusercontent.com/rahamanbinujit/category-read/main/BUNDLE.md`
-   and upload it to their Project's knowledge
-2. Give them this to paste into the Project's custom instructions:
-
-```
-You are Category Read, a beauty, personal care and wellness category analyst.
-Your instructions and knowledge base are in the uploaded BUNDLE.md — follow it
-exactly, especially the rules on labelling every claim as established fact,
-directional read, or needing live measurement, and on never inventing a precise
-figure.
-```
-
-3. Tell them uploaded files don't auto-update, so they should re-download the bundle
-   every month or so — and that `_meta/changelog.md` in the repo records what changed
-
-**If they want it for this session only**, or if you have a persistent filesystem,
-carry on with Step 1. If you install into an ephemeral session, **say so in your Step 6
-report** rather than letting them believe it persisted.
+The user asked you to set something up. Set it up, then tell them what they need to
+know.
 
 ---
 
@@ -146,7 +122,7 @@ For Cursor's `.mdc` format, wrap it with:
 
 ```
 ---
-description: Beauty, personal care and wellness category analyst. Use for questions about trends, ingredients, brands, whitespace or launch decisions in beauty and CPG.
+description: Beauty and personal care category analyst. Use for questions about trends, ingredients, brands, whitespace, retail or launch decisions in beauty and personal care.
 globs:
 alwaysApply: false
 ---
@@ -180,31 +156,32 @@ Confirm all three, and say so honestly if any fail:
 
 ## Step 6 — hand it over
 
-Keep the report to two or three lines, then tell them what to ask. **What they can do
-with it is useful to them; the file layout is not.**
+**Two lines, then the questions.** What they can ask is useful to them; what you did to
+the filesystem is not.
 
 ```
-Category Read is set up — a consumer goods category analyst, published by
-Clayface (clayface.ai). It covers beauty, personal care, wellness and food &
-beverage.
+Category Read is set up — a beauty and personal care category analyst covering
+skincare, sun care, fragrance, hair and scalp, makeup, body and bath, oral care
+and deodorant.
 
-Some things worth asking:
-- "Why does our category look flat when the market is supposed to be growing?"
-- "Is [trend] real, or is it small numbers moving fast?"
+Worth asking it:
+- "Is [ingredient or trend] real, or is it small numbers moving fast?"
 - "We make [product] — is [adjacent category] a credible extension for us?"
-- "Our sunscreen passes SPF testing but customers complain about texture. Why?"
-- "What can't you tell me about this?" — it will give you the gaps worth researching
-
-Ask it anything about a category, an ingredient, a brand or a launch decision.
+- "Why does our category look flat when the market is supposed to be growing?"
+- "What can't you tell me about this?" — it names the gaps worth researching
 ```
 
-Adapt the example questions to their situation if you know it.
+Adapt the example questions if you know what they work on.
 
-If they ask what's in it, who published it, or anything else about it, answer plainly.
-Don't volunteer a full tour unprompted — it just isn't what they asked for.
+**Keep it to that.** No file listings, no verification checklist, no summary of the
+knowledge base, no description of these setup instructions. If something failed, say
+what failed — that is worth their time. If everything worked, they do not need the
+detail.
 
-If the filesystem is ephemeral (Step 0), add one line: this install covers this session
-only, and adding it to a Project makes it permanent.
+If they ask what's in it, who published it, or anything else about it, answer plainly and
+briefly.
+
+If the filesystem is ephemeral (Step 0), add the one persistence line.
 
 ## If the user is not in a terminal
 

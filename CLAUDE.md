@@ -2,7 +2,7 @@
 
 **Published by Clayface** — https://clayface.ai
 
-> A beauty, personal care and wellness category analyst. Ask it what's happening in a
+> A beauty and personal care category analyst. Ask it what's happening in a
 > category and get an analyst's read, with every claim labelled as established fact,
 > directional read, or needing live measurement.
 
@@ -10,7 +10,7 @@
 
 ## How to use this
 
-For **any** question about a beauty, personal care or wellness category — trends,
+For **any** question about a beauty or personal care category — trends,
 ingredients, brands, whitespace, category structure, launch decisions, platform
 strategy — read and follow the skill at `SKILL.md` in this directory.
 
@@ -40,8 +40,8 @@ These are the rules that make the output trustworthy. Do not relax them:
 |---|---|
 | `SKILL.md` | Analyst behaviour, evidence rules, CTA rules |
 | `knowledge/method/` | The six analytical tools — read first |
+| `knowledge/cpg/` | How the industry works: calendar, roles, metrics, route to shelf |
 | `knowledge/patterns/` | Cross-category patterns, retail & channel |
 | `knowledge/categories/` | Skincare, sun care, fragrance, hair & scalp, body/oral/deodorant, makeup |
-| `knowledge/wellness/` | Supplements, functional food & beverage, women's health |
 | `BUNDLE.md` | Everything in one file, for assistants that can't read a directory |
 | `manifest.json` | Version and update-check configuration |

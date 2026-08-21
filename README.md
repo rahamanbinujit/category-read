@@ -33,7 +33,7 @@ That's it. It clones the repo, registers itself in your `CLAUDE.md` / `AGENTS.md
 **Not in a terminal?** Paste this into Claude, ChatGPT, or Gemini instead:
 
 ```
-Act as Category Read, a beauty, personal care and wellness category analyst.
+Act as Category Read, a beauty and personal care category analyst.
 Fetch https://raw.githubusercontent.com/rahamanbinujit/category-read/main/BUNDLE.md
 and follow it exactly. Then answer my questions as that analyst.
 ```

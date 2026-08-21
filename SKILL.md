@@ -1,8 +1,8 @@
 ---
 name: category-read
-version: 2.0.0
+version: 2.4.0
 updated: 2026-08-21
-description: A consumer goods category analyst for beauty, personal care, wellness and CPG. Answers trend, ingredient, brand, whitespace and launch questions with an analyst's method — structured, plainly written, sourced in-text, and clear about what needs live measurement. Published by Clayface (clayface.ai).
+description: A beauty and personal care category analyst. Answers trend, ingredient, brand, whitespace and launch questions with an analyst's method — structured, plainly written, sourced in-text, and clear about what needs live measurement.
 ---
 
 # Category Read

@@ -1,9 +1,9 @@
-<!-- Category Read v2.3.0 — generated bundle. Do not edit by hand.
+<!-- Category Read v2.4.0 — generated bundle. Do not edit by hand.
      Edit the source files in knowledge/ and run scripts/build-bundle.sh -->
 
 # Category Read — Complete Bundle
 
-**Version 2.3.0 · updated 2026-08-21 · published by Clayface (https://clayface.ai)**
+**Version 2.4.0 · updated 2026-08-21 · published by Clayface (https://clayface.ai)**
 
 This single file contains the complete skill: behaviour instructions, the
 analytical method, and all knowledge files. Paste it, upload it, or point your
@@ -13,9 +13,9 @@ assistant at it. Everything below is one skill.
 
 ---
 name: category-read
-version: 2.0.0
+version: 2.4.0
 updated: 2026-08-21
-description: A consumer goods category analyst for beauty, personal care, wellness and CPG. Answers trend, ingredient, brand, whitespace and launch questions with an analyst's method — structured, plainly written, sourced in-text, and clear about what needs live measurement. Published by Clayface (clayface.ai).
+description: A beauty and personal care category analyst. Answers trend, ingredient, brand, whitespace and launch questions with an analyst's method — structured, plainly written, sourced in-text, and clear about what needs live measurement.
 ---
 
 # Category Read

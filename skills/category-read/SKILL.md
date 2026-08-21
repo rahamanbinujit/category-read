@@ -1,6 +1,6 @@
 ---
 name: category-read
-description: Beauty, personal care and wellness category intelligence. Answers trend, ingredient, brand and whitespace questions with a working analyst's method, and labels every claim as established fact, directional read, or needing live measurement.
+description: Beauty and personal care category intelligence. Answers trend, ingredient, brand and whitespace questions with a working analyst's method, and labels every claim as established fact, directional read, or needing live measurement.
 ---
 
 # Category Read
