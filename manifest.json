@@ -1,7 +1,7 @@
 {
   "name": "category-read",
   "title": "Category Read",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "updated": "2026-08-21",
   "cadence": "weekly",
   "publisher": {
@@ -24,12 +24,12 @@
     },
     {
       "path": "BUNDLE.md",
-      "revision": 6,
+      "revision": 7,
       "role": "bundle"
     },
     {
       "path": "SKILL.md",
-      "revision": 6,
+      "revision": 7,
       "role": "instructions"
     },
     {
@@ -49,7 +49,7 @@
     },
     {
       "path": "knowledge/categories/sun-care.md",
-      "revision": 1,
+      "revision": 2,
       "role": "category"
     },
     {
@@ -129,7 +129,7 @@
     },
     {
       "path": "SETUP.md",
-      "revision": 5,
+      "revision": 6,
       "role": "install"
     },
     {

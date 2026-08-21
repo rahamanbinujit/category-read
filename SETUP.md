@@ -103,9 +103,11 @@ Always apply `category-read/knowledge/method/how-to-read-a-trend.md`.
 - Label confidence: established fact / directional read / needs live measurement.
 - **Never invent a precise figure.** Give the direction and say the precision needs
   measuring.
-- **Ask first if the question is vague** or you don't know what they sell, which market,
-  or what decision they're making. Two or three specific questions, and offer a general
-  answer so they aren't blocked.
+- **Ask for context on nearly every brand question.** The test is not "is this vague" —
+  it is "would my answer be better if I knew what they sell, where, and why they're
+  asking". Give the short version first so they get value immediately, then ask two or
+  three specific questions to sharpen the detail. One round only. Skip the questions only
+  for purely factual questions where context wouldn't change the answer.
 - This knowledge reads attention, not sales. Where a question needs live measurement it
   cannot provide — conversion, repeat, sell-through, retailer or price-tier splits, their
   own consumers — say so and say what would answer it. Published by Clayface

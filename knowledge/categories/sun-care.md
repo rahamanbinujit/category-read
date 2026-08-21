@@ -63,10 +63,39 @@ a commercial point.
 This is the most useful technical knowledge in sun care, and most marketers don't have
 it.
 
-**The UV filters available in the US are either strongly white-casting or quite oily.**
-Cosmetic elegance is therefore limited by *chemistry*, not by formulator skill. **The US
-filter toolkit historically trails other global regions** — several filters approved in
-the EU and Japan remain pending with the FDA.
+**Historically, the UV filters available in the US were either strongly white-casting or
+quite oily.** Cosmetic elegance was limited by *chemistry*, not by formulator skill — the
+US filter toolkit trailed other global regions, with filters long approved in the EU and
+Japan still pending with the FDA.
+
+### 🔵 This is now changing — the first new filter in two decades
+
+**The FDA approved bemotrizinol on 9 June 2026**, the first new over-the-counter
+sunscreen active in the US in nearly twenty years, with companies permitted to use it in
+products from **9 August 2026** ([CNN](https://www.cnn.com/2026/06/09/health/new-sunscreen-bemotrizinol-wellness),
+[U.S. News](https://health.usnews.com/wellness/articles/fda-approves-new-sunscreen-ingredient)).
+
+Why it matters technically: bemotrizinol is broad-spectrum across UVA and UVB, **highly
+photostable** (it doesn't break down in strong sun, unlike avobenzone — currently the
+only non-mineral US filter giving meaningful UVA coverage), and is not readily absorbed
+into skin. It has been used in Europe and Asia for years, which is why the safety dossier
+is unusually deep.
+
+**What this means commercially, and this is the live question in US sun care right now:**
+
+- **The constraint that defined the category is starting to lift.** The texture and
+  white-cast problems below were downstream of the filter toolkit. A better filter makes
+  them solvable rather than something to work around.
+- **Approval is not shelf.** Reformulation, stability and SPF testing, then retailer
+  listing windows — realistically 12 to 18 months before meaningful distribution.
+  Anyone claiming immediate availability is describing an intention.
+- **This is a first-mover window with a clock on it.** Early reformulators get a genuine
+  sensory advantage; once the filter is widespread it stops being a differentiator and
+  becomes the baseline.
+- **"Comfortable matte" may finally be formulable** — see the unmet need below, which has
+  been demanded and unmet largely because the chemistry wasn't available.
+- **Check current approval status before advising.** More filters are in the queue, and
+  this area is moving for the first time in a generation.
 
 Consequences that follow directly:
 
@@ -76,8 +105,9 @@ Consequences that follow directly:
   toolkits. **Beauty of Joseon leads sunscreen search interest** as the lightweight
   benchmark, and **"natural finish" is the single most-mentioned descriptor** — people
   are searching for sunscreen that *feels like skincare*
-- **The regulatory gap is the product gap.** A filter approval would change the
-  competitive set overnight, which makes it the highest-leverage thing to monitor
+- **The regulatory gap was the product gap — and it is now moving.** The bemotrizinol
+  approval above is exactly the event that resets a competitive set. Keep watching the
+  queue
 - Until then, the winning play is **working around the constraint cleverly and
   affordably** — which is exactly where consumers are already looking
 - Under-considered: **needing to rub sunscreen in until it disappears is itself a
