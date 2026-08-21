@@ -31,7 +31,7 @@ slightly negative.
 
 ---
 
-## The scalp opening — the largest single whitespace in the corpus
+## The scalp opening — the largest single whitespace in beauty right now
 
 **Consumers have started treating the scalp and hairline as skin, not hair.** This is
 the most actionable finding available in beauty right now, and it is barely contested.
@@ -125,7 +125,7 @@ hair, calico hair) and wig-adjacent products.
 ## Devices and at-home substitution
 
 **Two adjacent light-therapy products sit at different points on the curve**, which
-makes them the cleanest worked example of lifecycle reading in the corpus:
+makes them the cleanest worked example of reading lifecycle position:
 
 - **LED hair helmets** — already at *medium* competition. Contested.
 - **Red light therapy hats** — growing faster, and still almost entirely **curiosity-led**:
