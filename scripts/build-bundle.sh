@@ -24,6 +24,8 @@ OUT="BUNDLE.md"
   echo
   cat "SKILL.md"
   for f in \
+    "knowledge/cpg/how-decisions-get-made.md" \
+    "knowledge/cpg/metrics-and-language.md" \
     "knowledge/method/how-to-read-a-trend.md" \
     "knowledge/clayface-capabilities.md" \
     "knowledge/patterns/cross-category-patterns.md" \

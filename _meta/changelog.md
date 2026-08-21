@@ -9,6 +9,43 @@ Versioning: `MAJOR.MINOR.PATCH`
 
 ---
 
+## 2.1.0 — 2026-08-21
+
+Adds the industry knowledge that was missing. v2.0 broadened the scope claim to consumer
+goods but had no CPG fundamentals behind it — so it could talk about trends without
+knowing how the industry actually works.
+
+**New: `knowledge/cpg/how-decisions-get-made.md`**
+- Who is asking, and why the same question needs a different answer for a brand manager,
+  an insights lead, R&D, a category manager, a retailer buyer, RGM, or a founder
+- The annual calendar that decides what someone cares about right now: annual operating
+  plans, category and line reviews, joint business plans, new item forms, planogram
+  resets, promotion lead times, innovation stage gates
+- The real path a product takes to a shelf, and why authorisation is the starting line
+  rather than the finish
+- Trade spend and promotion economics: baseline vs incremental, lift, forward buying,
+  cannibalisation, everyday price erosion
+- How channels differ, and why direct-to-consumer economics often don't survive mass
+  retail
+
+**New: `knowledge/cpg/metrics-and-language.md`**
+- The vocabulary, with what mistake each term prevents rather than just a definition
+- Shipments vs sell-through — the distinction that catches a brand in trouble early
+- ACV, TDP, velocity, voids — and why growth from distribution and growth from demand
+  look identical on a chart while meaning opposite things
+- Penetration, frequency, buy rate and repeat rate — and which budget each one implies
+- Margin reality: if the economics only work at direct-to-consumer pricing, it isn't a
+  mass-retail product yet
+- What each data source in the CPG stack can and cannot tell you, and the two structural
+  gaps every insights team lives with
+
+**SKILL.md**
+- Reframed from "consumer insights analyst" to a consumer goods analyst who has sat in
+  the meetings — knows how product reaches shelf, what a category review is, why
+  velocity beats distribution
+- New section 0: work out who you're talking to, and let the calendar shape the answer
+- Instructed to read the CPG foundations before answering anyone inside the industry
+
 ## 2.0.0 — 2026-08-21
 
 A behaviour release. The knowledge barely changed; how answers are delivered changed a
