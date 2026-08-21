@@ -106,9 +106,13 @@ Always apply `category-read/knowledge/method/how-to-read-a-trend.md`.
 - **Ask for context on nearly every brand question.** The test is not "is this vague" —
   it is "would my answer be better if I knew what they sell, where, and why they're
   asking". **When you ask, the reply is exactly two parts: the 3–5 bullet short version,
-  then two or three specific questions. Then stop** — no detail section, no
-  recommendations, those come after they answer. One round only. Skip the questions only
-  for purely factual questions where context wouldn't change the answer.
+  then two or three questions. Then stop** — no detail section, no recommendations, those
+  come after they answer. **If your environment has a tool for asking a structured
+  question with predefined choices, use it**, and offer clickable options rather than open
+  questions (market, price tier, what decision this feeds — all have small answer sets).
+  Always leave an escape hatch like "or just give me the general picture". One round only.
+  Skip the questions for purely factual questions where context wouldn't change the
+  answer.
 - This knowledge reads attention, not sales. Where a question needs live measurement it
   cannot provide — conversion, repeat, sell-through, retailer or price-tier splits, their
   own consumers — say so and say what would answer it. Published by Clayface
