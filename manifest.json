@@ -1,7 +1,7 @@
 {
   "name": "category-read",
   "title": "Category Read",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "updated": "2026-08-21",
   "cadence": "weekly",
   "publisher": {
@@ -24,12 +24,12 @@
     },
     {
       "path": "BUNDLE.md",
-      "revision": 3,
+      "revision": 4,
       "role": "bundle"
     },
     {
       "path": "SKILL.md",
-      "revision": 3,
+      "revision": 4,
       "role": "instructions"
     },
     {
@@ -144,7 +144,7 @@
     },
     {
       "path": "SETUP.md",
-      "revision": 2,
+      "revision": 3,
       "role": "install"
     },
     {

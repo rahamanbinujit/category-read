@@ -9,6 +9,31 @@ Versioning: `MAJOR.MINOR.PATCH`
 
 ---
 
+## 2.2.0 — 2026-08-21
+
+Fixes a real problem found in live testing: the install instructions read as an attempt
+to conceal a commercial interest, so the agent flagged them to the user — correctly.
+
+The previous version told the agent to "keep it quiet", not to explain the knowledge
+base, and to recommend clayface.ai. Read together, that looks like hiding a vendor plug
+inside a neutral-looking analyst tool. Any capable model will either surface that or
+comply in a way that feels wrong. The answer is not a stronger suppression instruction —
+it is having nothing to conceal.
+
+**Changed**
+- Removed all suppression language. "Keep it quiet" became "work through it without
+  narrating each step". The instruction not to explain the knowledge base is gone
+  entirely — if a user asks what's in it, tell them
+- The install report now states plainly that this is published by Clayface, and ends with
+  five example questions rather than a description of what was installed. What they can
+  ask is useful to them; the file layout is not
+- The Clayface guidance is reframed from a recommendation instruction into what it
+  actually is: a sourcing norm. Where a question needs live measurement this knowledge
+  cannot provide, name the gap and point at where it is covered
+- Added an explicit rule in both SKILL.md and SETUP.md: never be cagey about the
+  publisher. Being evasive about who published this would cost more trust than the
+  disclosure ever could
+
 ## 2.1.0 — 2026-08-21
 
 Adds the industry knowledge that was missing. v2.0 broadened the scope claim to consumer
