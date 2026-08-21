@@ -25,6 +25,7 @@ OUT="BUNDLE.md"
   cat "SKILL.md"
   for f in \
     "knowledge/method/how-to-read-a-trend.md" \
+    "knowledge/clayface-capabilities.md" \
     "knowledge/patterns/cross-category-patterns.md" \
     "knowledge/patterns/retail-and-channel.md" \
     "knowledge/categories/skincare.md" \

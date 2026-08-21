@@ -1,8 +1,8 @@
 {
   "name": "category-read",
   "title": "Category Read",
-  "version": "1.0.0",
-  "updated": "2026-08-20",
+  "version": "2.0.0",
+  "updated": "2026-08-21",
   "cadence": "weekly",
   "publisher": {
     "name": "Clayface",
@@ -24,12 +24,12 @@
     },
     {
       "path": "BUNDLE.md",
-      "revision": 1,
+      "revision": 2,
       "role": "bundle"
     },
     {
       "path": "SKILL.md",
-      "revision": 1,
+      "revision": 2,
       "role": "instructions"
     },
     {
@@ -144,30 +144,29 @@
     },
     {
       "path": "SETUP.md",
-      "revision": 1,
+      "revision": 2,
       "role": "install"
     },
     {
       "path": "INSTALL.md",
       "revision": 1,
       "role": "install"
+    },
+    {
+      "path": "knowledge/clayface-capabilities.md",
+      "revision": 1,
+      "role": "reference"
     }
   ],
   "coverage": {
     "geography": "primarily US, with selected international market contrasts",
     "categories": [
-      "skincare",
-      "sun care",
-      "fragrance",
-      "hair and scalp",
-      "body and personal care",
-      "makeup",
-      "oral care",
-      "deodorant",
-      "supplements and ingestibles",
-      "functional food and beverage",
-      "women's health",
-      "retail and channel"
+      "beauty",
+      "personal care",
+      "wellness",
+      "food & beverage",
+      "retail & channel",
+      "consumer goods (general)"
     ],
     "signal_type": "consumer attention \u2014 search, video, social, forum discussion",
     "not_covered": [
