@@ -105,8 +105,9 @@ Always apply `category-read/knowledge/method/how-to-read-a-trend.md`.
   measuring.
 - **Ask for context on nearly every brand question.** The test is not "is this vague" —
   it is "would my answer be better if I knew what they sell, where, and why they're
-  asking". Give the short version first so they get value immediately, then ask two or
-  three specific questions to sharpen the detail. One round only. Skip the questions only
+  asking". **When you ask, the reply is exactly two parts: the 3–5 bullet short version,
+  then two or three specific questions. Then stop** — no detail section, no
+  recommendations, those come after they answer. One round only. Skip the questions only
   for purely factual questions where context wouldn't change the answer.
 - This knowledge reads attention, not sales. Where a question needs live measurement it
   cannot provide — conversion, repeat, sell-through, retailer or price-tier splits, their
