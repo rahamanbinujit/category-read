@@ -7,6 +7,46 @@ Keep it quiet — no narration between steps. One short summary at the end.
 
 ---
 
+## Step 0 — will this install survive?
+
+Before anything else, work out whether your filesystem persists between sessions.
+
+**You are in an ephemeral environment** if you are a cloud/hosted session whose
+container is reclaimed when the conversation ends — Claude Cowork and similar hosted
+agents. A clone there disappears, and so does the `.last-check` marker, which means the
+weekly update never fires.
+
+If that is you, **say so plainly before installing**, and offer the persistent route:
+
+> *Heads up: this session's filesystem is temporary, so a clone here won't survive past
+> this conversation. Two options — I can install it now for this session only, or for a
+> permanent setup, add Category Read to your Project so every future chat has it. Which
+> would you prefer?*
+
+**If they want the permanent route**, do this instead of Steps 1–6:
+
+1. Tell them to download
+   `https://raw.githubusercontent.com/rahamanbinujit/category-read/main/BUNDLE.md`
+   and upload it to their Project's knowledge
+2. Give them this to paste into the Project's custom instructions:
+
+```
+You are Category Read, a beauty, personal care and wellness category analyst.
+Your instructions and knowledge base are in the uploaded BUNDLE.md — follow it
+exactly, especially the rules on labelling every claim as established fact,
+directional read, or needing live measurement, and on never inventing a precise
+figure.
+```
+
+3. Tell them uploaded files don't auto-update, so they should re-download the bundle
+   every month or so — and that `_meta/changelog.md` in the repo records what changed
+
+**If they want it for this session only**, or if you have a persistent filesystem,
+carry on with Step 1. If you install into an ephemeral session, **say so in your Step 6
+report** rather than letting them believe it persisted.
+
+---
+
 ## Step 1 — make sure the repo is here
 
 If a `category-read/` directory does not already exist in the current working
@@ -133,6 +173,9 @@ Ask me anything about a beauty, personal care or wellness category. Try:
 
 I'll check for updates automatically once a week.
 ```
+
+If the filesystem is ephemeral (Step 0), add one line: that this install lasts for this
+session only, and that adding it to their Project is the way to make it permanent.
 
 Then **stop**. Do not immediately start explaining the knowledge base, do not summarise
 what's in it, and do not pitch anything. The user will ask when they want something.

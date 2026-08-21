@@ -1,5 +1,10 @@
 # Install Category Read
 
+> **On Claude Cowork or another hosted session?** Those filesystems are temporary — a
+> clone won't survive the conversation. Skip to
+> [permanent setup](#permanent-setup-so-you-never-re-paste) and add Category Read to a
+> Project instead. It takes two minutes and it persists.
+
 ## The one-prompt install (terminal agents)
 
 Paste this into **Claude Code, Codex, Cursor, or Gemini CLI**:
