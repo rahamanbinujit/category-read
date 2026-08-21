@@ -35,10 +35,7 @@ OUT="BUNDLE.md"
     "knowledge/categories/fragrance.md" \
     "knowledge/categories/hair-and-scalp.md" \
     "knowledge/categories/body-and-personal-care.md" \
-    "knowledge/categories/makeup.md" \
-    "knowledge/wellness/supplements-and-ingestibles.md" \
-    "knowledge/wellness/functional-food-and-beverage.md" \
-    "knowledge/wellness/womens-health.md"
+    "knowledge/categories/makeup.md"
   do
     echo; echo; echo "---"; echo
     echo "<!-- source: $f -->"

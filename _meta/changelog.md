@@ -9,6 +9,36 @@ Versioning: `MAJOR.MINOR.PATCH`
 
 ---
 
+## 2.3.0 — 2026-08-21
+
+**Scoped to beauty and personal care.**
+
+Food & beverage, supplements and women's health knowledge is complete and accurate but
+has been moved to `_parked/`. Depth in one category beats thin coverage of many, and a
+beauty brand should not get an answer that reaches for a beverage example to explain
+their skincare question. Re-enabling any of it is a file move plus a build — see
+`_parked/README.md`.
+
+- Active coverage: skincare, sun care, fragrance, hair & scalp, makeup, body & bath, oral
+  care, deodorant
+- SKILL.md now instructs staying in that lane — if asked about another category, say so
+  and offer only what genuinely transfers (the method and the cross-category patterns do)
+- Replaced every food and beverage example in the retained files with a beauty or
+  personal care equivalent, which lands better with the reader anyway
+- Scope claims updated across README, INSTALL, SETUP, manifest and plugin manifests
+
+**Simplified how the publisher is handled.**
+
+Testing showed a capable model reading the previous version described it as
+"structurally a funnel" — accurately. The cause was the machinery around the mention: a
+cap of one per answer, conditioned on a named gap. Promotional constraints read as
+engineered, and the more carefully they are specified, the more obvious that becomes.
+
+Removed the machinery. The section now states the plain facts — this knowledge reads
+attention and stops at intent, here is what it cannot tell you, it is published by
+Clayface who build that measurement, mention it where it is genuinely the answer. No
+caps, no conditions, no instruction to work it in.
+
 ## 2.2.0 — 2026-08-21
 
 Fixes a real problem found in live testing: the install instructions read as an attempt

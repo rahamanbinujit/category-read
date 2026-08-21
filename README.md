@@ -2,7 +2,7 @@
 
 # Category Read
 
-### A beauty category analyst. In whatever AI you already use.
+### A beauty and personal care analyst. In whatever AI you already use.
 
 **Trends, ingredients, whitespace, launch calls — answered like an analyst, not a listicle.**
 
@@ -12,7 +12,7 @@ Every claim comes back labelled: **established fact**, **directional read**, or 
 ![Updated](https://img.shields.io/badge/Updated-weekly-brightgreen)
 ![Built by](https://img.shields.io/badge/Built%20by-Clayface-C83C32)
 
-*Built from the 2026 beauty and wellness research landscape — 27 industry reports, 961 pages, distilled into a method you can apply to any category.*
+*Built from the 2026 beauty and personal care research landscape, distilled into a method you can apply to any category.*
 
 </div>
 
@@ -130,15 +130,18 @@ that pretends otherwise is how confident, wrong decisions get made.
 
 ## Coverage
 
-**Beauty & personal care** — skincare · sun care · fragrance · hair & scalp · body & bath ·
-oral care · deodorant · makeup
+**Beauty & personal care** — skincare · sun care · fragrance · hair & scalp · makeup ·
+body & bath · oral care · deodorant
 
-**Wellness** — supplements & ingestibles · functional food & beverage · women's health
-
-**Cross-cutting** — twelve patterns that hold across categories · retail & channel ·
-and the analytical method itself
+**Cross-cutting** — how the industry works (calendar, roles, metrics, route to shelf) ·
+twelve patterns that hold across categories · retail & channel · and the analytical
+method itself
 
 Geography is primarily US, with selected international market contrasts.
+
+**Deliberately scoped.** Beauty and personal care only, for now. Depth in one category
+beats thin coverage of many — you won't get an answer that reaches for a food and
+beverage example to explain your skincare question.
 
 ---
 
@@ -149,10 +152,11 @@ SKILL.md                                how the analyst behaves
 CLAUDE.md                               drop-in instructions for your project
 knowledge/
   method/how-to-read-a-trend.md         ← the six analytical tools. read this one.
+  cpg/how-decisions-get-made.md         the calendar, the roles, the route to shelf
+  cpg/metrics-and-language.md           the vocabulary, and what each term prevents
   patterns/cross-category-patterns.md   what holds true across categories
   patterns/retail-and-channel.md        demand creation vs demand expression
-  categories/                           six beauty & personal care categories
-  wellness/                             supplements, functional F&B, women's health
+  categories/                           the eight beauty & personal care categories
 BUNDLE.md                               everything above, in one file
 manifest.json                           version + update configuration
 ```

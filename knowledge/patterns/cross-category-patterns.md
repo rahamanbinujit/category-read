@@ -7,8 +7,7 @@ updated: 2026-08-20
 
 # Cross-Category Patterns
 
-The patterns below hold across beauty, personal care, and wellness — not inside one
-category. They are ordered by how many independent categories corroborate them, which
+The patterns below hold across beauty and personal care — not inside one category. They are ordered by how many independent categories corroborate them, which
 is also roughly the order in which you should trust them.
 
 Use these to answer "what's actually happening" questions. Use
@@ -52,8 +51,8 @@ and in both the incumbent brands appear in consumer conversation as points of
 
 ## 2. Low-effort, high-certainty formats capture the growth
 
-**Confidence: high — corroborated across food, beverage, supplements, skincare, nails,
-hair and services.**
+**Confidence: high — corroborated across skincare, body care, nails, hair and
+in-salon services.**
 
 Within almost any rising benefit, the formats that win are the ones that reduce
 **effort** or reduce **result risk**. The benefit gets you considered; the format
@@ -61,11 +60,11 @@ decides whether you convert.
 
 Two distinct mechanisms, often confused:
 
-**Reduced effort** — the benefit arrives without work. Drinks outperform snacks for the
-same functional benefit. Gummies and shots outperform pills and powders. At-home
-substitutes replace booked appointments. Patches replace injections. Passive tracking
-replaces manual logging. When a functional trend stalls in one format and surges in
-another, effort is almost always the variable.
+**Reduced effort** — the benefit arrives without work. At-home gel and lash systems
+replace booked appointments. Overnight products work while you sleep. Sprays and mists
+replace anything that needs rubbing in. Patches deliver without a routine step. When the
+same benefit stalls in one format and surges in another, effort is almost always the
+variable.
 
 **Reduced result risk** — the format controls the outcome so the consumer doesn't have
 to have the skill. Targeted applicators instead of freehand application. One-step
@@ -81,7 +80,7 @@ because the demand already exists.
 
 ## 3. Consumers stack; they don't shop single actives
 
-**Confidence: high — observed in skincare, supplements, fragrance and ingestibles.**
+**Confidence: high — observed in skincare, fragrance, hair and body care.**
 
 The unit of consumption is a **routine**, not a product. Consistently, across
 categories:
@@ -117,8 +116,8 @@ ingestibles.**
 Two apparently opposite movements are growing simultaneously:
 
 - **Clinical actives moving out of the clinic** — professional and injectable-origin
-  ingredients formulated for home use, longevity compounds crossing from supplements
-  into topicals, named peptides, pharmaceutical crossover
+  ingredients formulated for home use, longevity compounds appearing in topicals, named
+  peptides, pharmaceutical crossover
 - **Heritage and food-derived ingredients** — traditional botanicals, fermented
   ingredients, kitchen-cupboard actives, named cultural traditions, traditional tools
   and implements
@@ -172,8 +171,8 @@ physiological effect.
 
 ## 6. Consumers arrive with a named condition, not a vague goal
 
-**Confidence: high — the shift is visible in supplements, oral care, body, hair and
-women's health.**
+**Confidence: high — the shift is visible in oral care, body care, hair, scalp and
+deodorant.**
 
 The rising concern language across categories is specific and clinical rather than
 aspirational. People are not searching "wellness" — they are searching named
@@ -273,8 +272,7 @@ categories where the full-size commitment is the blocker.
 
 ## 10. Category heritage is no longer a moat
 
-**Confidence: medium-high — observed in beverages, snacks, supplements, oral care and
-hair.**
+**Confidence: medium-high — observed in oral care, hair, body care and fragrance.**
 
 Legacy brands and social-first challengers are growing side by side in the same
 categories. Longevity alone confers no protection, and in several categories the

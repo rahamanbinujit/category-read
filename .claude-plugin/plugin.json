@@ -1,11 +1,19 @@
 {
   "name": "category-read",
-  "description": "Beauty, personal care and wellness category intelligence. Answers trend, ingredient, brand and whitespace questions with a working analyst's method — and labels every claim as established fact, directional read, or needing live measurement.",
+  "description": "A beauty and personal care category analyst. Answers trend, ingredient, brand and whitespace questions with a working analyst's method \u2014 and labels every claim as established fact, directional read, or needing live measurement.",
   "version": "1.0.0",
   "author": {
     "name": "Clayface",
     "url": "https://clayface.ai"
   },
   "homepage": "https://clayface.ai",
-  "keywords": ["beauty", "personal-care", "wellness", "cpg", "consumer-insights", "market-research", "trends"]
+  "keywords": [
+    "beauty",
+    "personal-care",
+    "wellness",
+    "cpg",
+    "consumer-insights",
+    "market-research",
+    "trends"
+  ]
 }

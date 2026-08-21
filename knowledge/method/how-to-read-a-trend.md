@@ -114,10 +114,10 @@ open. Any two out of three is worth a look. Growth alone is not whitespace.
 Category leadership is term-dependent, and this trips up more analysis than anything
 else on this list.
 
-The same category measured under two different consumer phrasings can produce two
-different leaders — one brand can dominate the technical or supplement framing while
-another dominates the everyday drink framing. Both readings are correct. Neither is
-the whole picture.
+The same need measured under two different consumer phrasings can produce two different
+leaders. Measure "tinted sunscreen" and you get one set of brands; measure "skin tint"
+and you get another, even though shoppers often use them for the same job. Both readings
+are correct. Neither is the whole picture.
 
 **Practical rules:**
 - Any share or leadership claim must say **which term** it measures

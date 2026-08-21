@@ -1,7 +1,7 @@
 {
   "name": "category-read",
   "title": "Category Read",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "updated": "2026-08-21",
   "cadence": "weekly",
   "publisher": {
@@ -19,17 +19,17 @@
   "files": [
     {
       "path": "README.md",
-      "revision": 1,
+      "revision": 2,
       "role": "docs"
     },
     {
       "path": "BUNDLE.md",
-      "revision": 4,
+      "revision": 5,
       "role": "bundle"
     },
     {
       "path": "SKILL.md",
-      "revision": 4,
+      "revision": 5,
       "role": "instructions"
     },
     {
@@ -69,21 +69,6 @@
     },
     {
       "path": "knowledge/categories/makeup.md",
-      "revision": 1,
-      "role": "category"
-    },
-    {
-      "path": "knowledge/wellness/supplements-and-ingestibles.md",
-      "revision": 1,
-      "role": "category"
-    },
-    {
-      "path": "knowledge/wellness/functional-food-and-beverage.md",
-      "revision": 1,
-      "role": "category"
-    },
-    {
-      "path": "knowledge/wellness/womens-health.md",
       "revision": 1,
       "role": "category"
     },
@@ -144,12 +129,12 @@
     },
     {
       "path": "SETUP.md",
-      "revision": 3,
+      "revision": 4,
       "role": "install"
     },
     {
       "path": "INSTALL.md",
-      "revision": 1,
+      "revision": 2,
       "role": "install"
     },
     {
@@ -171,12 +156,14 @@
   "coverage": {
     "geography": "primarily US, with selected international market contrasts",
     "categories": [
-      "beauty",
-      "personal care",
-      "wellness",
-      "food & beverage",
-      "retail & channel",
-      "consumer goods (general)"
+      "skincare",
+      "sun care",
+      "fragrance",
+      "hair & scalp",
+      "makeup",
+      "body & bath",
+      "oral care",
+      "deodorant"
     ],
     "signal_type": "consumer attention \u2014 search, video, social, forum discussion",
     "not_covered": [
@@ -184,7 +171,8 @@
       "conversion and repeat purchase",
       "retailer, region and price-tier splits",
       "first-party or brand-specific performance"
-    ]
+    ],
+    "scope_note": "Beauty and personal care only. Food & beverage, supplements and women's health knowledge exists but is parked in _parked/ \u2014 depth in one category beats thin coverage of many."
   },
   "install": {
     "claude_code": "/plugin marketplace add rahamanbinujit/category-read  then  /plugin install category-read@clayface",
